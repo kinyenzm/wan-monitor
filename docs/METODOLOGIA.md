@@ -67,14 +67,15 @@ El anexo contiene únicamente interrupciones no inducidas.
    `fase_tras_restablecimientos` de `resumen.json`.
 5. **Lecturas de radio.** Se consultó la información de ingeniería del panel web del equipo (tecnología,
    banda, celda, RSRP, RSRQ, SINR): el 11/09 (NR n78 de 80 MHz, RSRP −64 dBm, SINR 34 dB) y el 24/09 a las
-   14:54 (solo 4G en banda 28, RSRQ −17 dB, sin NR ni agregación de portadoras).
+   14:54, durante una caída a 4G (solo 4G en banda 28, RSRQ −17 dB, sin NR ni agregación de portadoras).
 6. **Configuración del equipo.** Se revisó la configuración accesible al usuario (reinicio programado, modo
    nocturno, vigilancia por ping, DHCP, temperatura, CPU y memoria) y se consultó la actualización de
    firmware contra el servidor del operador, que no reportó versión más reciente.
 
-## 6. Comparación con y sin 5G
+## 6. Comparación antes y después de las caídas a 4G
 
-Desde el 24/09/2026 14:17 el equipo quedó sin 5G. La latencia de ambos periodos se compara con los latidos
+Desde el 24/09/2026 14:17 el equipo cae de forma intermitente a 4G en banda 28, sin 5G, en episodios de alrededor
+de una hora. La latencia antes y después de esa fecha se compara con los latidos
 `ok` del log (uno por minuto), las respuestas de 800 ms o más y los fallos aislados, normalizados por hora
 medida. Periodos en `periodos_latencia` de `eventos.json`; resultado en `latencia_por_periodo`.
 

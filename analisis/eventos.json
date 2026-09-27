@@ -73,7 +73,7 @@
   },
   {
    "desde": "2026-09-24 14:17:48",
-   "etiqueta": "Sin 5G - solo 4G banda 28 (desde 24/09 14:17)"
+   "etiqueta": "5G NSA - con caidas intermitentes a 4G (desde 24/09 14:17)"
   }
  ],
  "restablecimientos": [
@@ -104,12 +104,12 @@
  ],
  "periodos_latencia": [
   {
-   "nombre": "con 5G",
+   "nombre": "antes de la primera caida a 4G",
    "desde": "2026-09-13 00:00:00",
    "hasta": "2026-09-24 14:17:48"
   },
   {
-   "nombre": "sin 5G (solo 4G banda 28)",
+   "nombre": "desde la primera caida a 4G (caidas intermitentes)",
    "desde": "2026-09-24 14:17:48",
    "hasta": "2026-09-26 16:00:00"
   }
