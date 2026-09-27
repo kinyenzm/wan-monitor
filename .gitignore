@@ -1,0 +1,8 @@
+bin/
+obj/
+publicar/
+*.user
+.vs/
+dist/
+__pycache__/
+salida/

@@ -1,0 +1,117 @@
+{
+ "descripcion": "Eventos de la medición del 08/09/2026 al 26/09/2026 usados para el anexo del reclamo.",
+ "hasta": "2026-09-26 16:00:00",
+ "umbral_ruido_s": 5,
+ "excluir": [
+  {
+   "inicio": "2026-09-11 06:56:50",
+   "motivo": "cambio de modo de red: regreso de 4G a 5G"
+  },
+  {
+   "inicio": "2026-09-11 06:57:25",
+   "motivo": "cambio de modo de red: regreso de 4G a 5G"
+  },
+  {
+   "inicio": "2026-09-17 21:13:12",
+   "motivo": "arranque del equipo tras desconexión"
+  },
+  {
+   "inicio": "2026-09-17 21:15:38",
+   "motivo": "arranque del equipo tras desconexión"
+  },
+  {
+   "inicio": "2026-09-19 09:47:02",
+   "motivo": "desconexión del equipo de la corriente"
+  },
+  {
+   "inicio": "2026-09-24 14:31:59",
+   "motivo": "reinicio del equipo"
+  },
+  {
+   "inicio": "2026-09-24 14:32:57",
+   "motivo": "arranque del equipo tras reinicio"
+  },
+  {
+   "inicio": "2026-09-25 22:42:17",
+   "motivo": "reinicio del equipo"
+  },
+  {
+   "inicio": "2026-09-25 22:43:16",
+   "motivo": "arranque del equipo tras reinicio"
+  },
+  {
+   "inicio": "2026-09-25 22:45:10",
+   "motivo": "arranque del equipo tras reinicio"
+  }
+ ],
+ "invalidos": [
+  {
+   "inicio": "2026-09-26 01:14:00",
+   "motivo": "computador de medición suspendido (7 h sin sondas)"
+  }
+ ],
+ "condiciones": [
+  {
+   "desde": "2026-09-08 00:00:00",
+   "etiqueta": "5G NSA - configuracion original"
+  },
+  {
+   "desde": "2026-09-10 17:38:00",
+   "etiqueta": "4G exclusivo - prueba controlada"
+  },
+  {
+   "desde": "2026-09-11 06:56:00",
+   "etiqueta": "5G NSA - configuracion original"
+  },
+  {
+   "desde": "2026-09-17 21:13:00",
+   "etiqueta": "5G NSA - tras desconexion del 17/09"
+  },
+  {
+   "desde": "2026-09-19 09:47:00",
+   "etiqueta": "5G NSA - tras desconexion del 19/09"
+  },
+  {
+   "desde": "2026-09-24 14:17:48",
+   "etiqueta": "Sin 5G - solo 4G banda 28 (desde 24/09 14:17)"
+  }
+ ],
+ "restablecimientos": [
+  {
+   "inicio": "2026-09-11 06:56:50",
+   "fin": "2026-09-11 06:58:01",
+   "motivo": "regreso de 4G a 5G"
+  },
+  {
+   "fin": "2026-09-17 21:15:46",
+   "motivo": "encendido tras desconexión (la desconexión ocurrió con el monitor apagado)"
+  },
+  {
+   "inicio": "2026-09-19 09:47:02",
+   "fin": "2026-09-19 09:49:52",
+   "motivo": "desconexión y encendido"
+  },
+  {
+   "inicio": "2026-09-24 14:31:59",
+   "fin": "2026-09-24 14:33:05",
+   "motivo": "reinicio"
+  },
+  {
+   "inicio": "2026-09-25 22:42:17",
+   "fin": "2026-09-25 22:45:46",
+   "motivo": "reinicio"
+  }
+ ],
+ "periodos_latencia": [
+  {
+   "nombre": "con 5G",
+   "desde": "2026-09-13 00:00:00",
+   "hasta": "2026-09-24 14:17:48"
+  },
+  {
+   "nombre": "sin 5G (solo 4G banda 28)",
+   "desde": "2026-09-24 14:17:48",
+   "hasta": "2026-09-26 16:00:00"
+  }
+ ]
+}
